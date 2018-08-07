@@ -1,8 +1,7 @@
 ---
-layout: default
-permalink: /404.html
+title: 研究関連
+layout: page
 ---
-
 <section class="lost-container">
   <h1>Uh oh!</h1>
   <br />
