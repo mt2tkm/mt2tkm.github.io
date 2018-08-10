@@ -12,7 +12,7 @@ layout: page
 
 ---
 
-## <font color="Navy">Awards</font>
+## <span style="border-bottom: solid 5px red">Awards</span>
 <ul>
 {% for award in site.data.awards %}
   <li>
@@ -25,13 +25,16 @@ layout: page
         {% endif %}
 	  {% endfor %} <br>
 	  {{ award.from }} ({{ award.day }})
+    {% if award.link != "" %}
+      {{award.link}}
+    {% endif %}
   </li>
 {% endfor %}
 </ul>
 
 ---
 
-## <font color="Navy">Publications</font>
+## <span style="border-bottom: solid 5px red">Publications</span>
 
 <ul>
 {% for paper in site.data.paper %}
@@ -51,7 +54,7 @@ layout: page
 
 ---
 
-## <font color="Navy">Skills</font>
+## <span style="border-bottom: solid 5px red">Skills</span>
 <ul class="skill-list">
 	<li>Git</li>
 	<li>Python</li>
@@ -60,14 +63,14 @@ layout: page
 	<li>MySQL - MongoDB</li>
 </ul>
 
-## <font color="Navy">Projects</font>
+## <span style="border-bottom: solid 5px red">Projects</span>
 <ul>
 	<li><a href="https://github.com/OnizukaLab/CoRIN">OnizukaLab/CoRIN</a></li>
 </ul>
 
 ---
 
-## <font color="Navy">History</font>
+## <span style="border-bottom: solid 5px red">History</span>
 - 1996.03 : 大阪府生まれ
 - 2014.04 : 大阪大学 工学部電子情報工学科 入学
 - 2016.10 : 鬼塚研究室　配属

@@ -4,14 +4,14 @@ layout: page
 ---
 # 研究関連
 
-## <font color="Navy">Reserch Interest</font>
+## <span style="border-bottom: solid 5px red">Reserch Interest</span>
 - データマイニング
 - 探索的データ分析 (Explanatory analysis)
 - データキューブ
 - OLAP (Online Analytical Processing)
 - 異常検知 (outlier detection)
 
-## <font color="Navy">Internship</font>
+## <span style="border-bottom: solid 5px red">Internship</span>
 1. 三菱電機
   - 期間 : 2017.08 - 2017.09
   - 情報技術総合研究所
@@ -19,7 +19,7 @@ layout: page
 2. リクルート
   - 期間 : 2018.09
 
-## <font color="Navy">Publications</font>
+## <span style="border-bottom: solid 5px red">Publications</span>
 
 <ul>
 {% for paper in site.data.paper %}
@@ -29,7 +29,7 @@ layout: page
 	  		{% if member == "鬼塚 真" %}
             {{member}}.
         {% else %}
-            {{member}}, 
+            {{member}},
         {% endif %}
 	  {% endfor %} <br>
 	  {{ paper.conference }} ({{ paper.day }})
