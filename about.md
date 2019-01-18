@@ -59,7 +59,7 @@ layout: page
 	<li>Git</li>
 	<li>Python</li>
 	<li>Scala</li>
-	<li>C++</li>
+	<li>C/C#/C++</li>
 	<li>MySQL - MongoDB</li>
 </ul>
 
