@@ -33,9 +33,9 @@ layout: page
       <strong> {{ paper.title }} </strong> <br>
 	  {% for member in paper.author %}
 	  		{% if member == "鬼塚 真" %}
-            {{member}}.
+            {{member}}．
         {% else %}
-            {{member}},
+            {{member}}，
         {% endif %}
 	  {% endfor %} <br>
 	  {{ paper.conference }} ({{ paper.day }})

@@ -19,9 +19,9 @@ layout: page
       <strong> {{ award.award }} </strong> <br>
 	  {% for member in award.author %}
         {% if member == "鬼塚 真" %}
-            {{member}}.
+            {{member}}．
         {% else %}
-            {{member}},
+            {{member}}，
         {% endif %}
 	  {% endfor %} <br>
 	  {{ award.from }} ({{ award.day }})
@@ -42,9 +42,9 @@ layout: page
       <strong> {{ paper.title }} </strong> <br>
 	  {% for member in paper.author %}
 	  		{% if member == "鬼塚 真" %}
-            {{member}}.
+            {{member}}．
         {% else %}
-            {{member}},
+            {{member}}，
         {% endif %}
 	  {% endfor %} <br>
 	  {{ paper.conference }} ({{ paper.day }})
@@ -60,7 +60,9 @@ layout: page
 	<li>Python</li>
 	<li>Scala</li>
 	<li>C/C#/C++</li>
+  <li>Ruby</li>
 	<li>MySQL - MongoDB</li>
+  <li>GCP/AWS</li>
 </ul>
 
 ## <span style="border-bottom: solid 5px red">Projects</span>
