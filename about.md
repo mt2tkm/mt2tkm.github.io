@@ -18,7 +18,7 @@ layout: page
   <li>
       <strong> {{ award.award }} </strong> <br>
 	  {% for member in award.author %}
-        {% if member == "鬼塚 真" %}
+        {% if member == "鬼塚 真" || member == "Makoto Onizuka" %}
             {{member}}．
         {% else %}
             {{member}}，
@@ -41,7 +41,7 @@ layout: page
   <li>
       <strong> {{ paper.title }} </strong> <br>
 	  {% for member in paper.author %}
-	  		{% if member == "鬼塚 真" %}
+	  		{% if member == "鬼塚 真" || member == "Makoto Onizuka" %}
             {{member}}．
         {% else %}
             {{member}}，

@@ -13,7 +13,7 @@ layout: page
 - 異常検知 (outlier detection)
 
 ## <span style="border-bottom: solid 5px red">Internship</span>
-1. (株)三菱電機
+1. （株）三菱電機
   - 期間：一か月 (2017.08 - 2017.09)
   - 情報技術総合研究所
 
@@ -32,7 +32,7 @@ layout: page
   <li>
       <strong> {{ paper.title }} </strong> <br>
 	  {% for member in paper.author %}
-	  		{% if member == "鬼塚 真" %}
+	  		{% if member == "鬼塚 真" || member == "Makoto Onizuka" %}
             {{member}}．
         {% else %}
             {{member}}，
