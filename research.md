@@ -32,8 +32,10 @@ layout: page
   <li>
       <strong> {{ paper.title }} </strong> <br>
 	  {% for member in paper.author %}
-	  		{% if member == "鬼塚 真" || member == "Makoto Onizuka" %}
+	  		{% if member == "鬼塚 真" %}
             {{member}}．
+        {% els if member == "Makoto Onizuka" %}
+            {{member}}．            
         {% else %}
             {{member}}，
         {% endif %}
