@@ -34,8 +34,6 @@ layout: page
 	  {% for member in paper.author %}
 	  		{% if member == "鬼塚 真" %}
             {{member}}．
-        {% else if member == "Makoto Onizuka" %}
-            {{member}}．
         {% else %}
             {{member}}，
         {% endif %}
