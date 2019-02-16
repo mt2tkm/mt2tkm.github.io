@@ -17,13 +17,6 @@
         "award" : "DEIM2018 学生プレゼンテーション賞",
         "day" : 2018.03,
         "from" : "電子情報通信学会",
-        "author" : ["小笠原 麻斗", "松本 拓海", "佐々木 勇和", "鬼塚 真"],
-        "link" : "<a href='http://db-event.jpn.org/deim2018/post/award/'>[link]</a>"
-    },
-    {
-        "award" : "DEIM2018 学生プレゼンテーション賞",
-        "day" : 2018.03,
-        "from" : "電子情報通信学会",
         "author" : ["松本 拓海", "小笠原 麻斗", "山室 健", "佐々木 勇和", "鬼塚 真"],
         "link" : "<a href='http://db-event.jpn.org/deim2018/post/award/'>[link]</a>"
     }

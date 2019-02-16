@@ -27,8 +27,26 @@ layout: page
 
 ## <span style="border-bottom: solid 5px red">Publications</span>
 
+### 主著論文
 <ul>
 {% for paper in site.data.paper %}
+  <li>
+      <strong> {{ paper.title }} </strong> <br>
+	  {% for member in paper.author %}
+	  		{% if member == "鬼塚 真" %}
+            {{member}}．
+        {% else %}
+            {{member}}，
+        {% endif %}
+	  {% endfor %} <br>
+	  {{ paper.conference }} ({{ paper.day }})
+  </li>
+{% endfor %}
+</ul>
+
+### その他
+<ul>
+{% for paper_sub in site.data.paper %}
   <li>
       <strong> {{ paper.title }} </strong> <br>
 	  {% for member in paper.author %}
