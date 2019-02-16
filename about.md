@@ -59,10 +59,10 @@ layout: page
 	<li>Git</li>
 	<li>Python</li>
 	<li>Scala</li>
-	<li>C/C#/C++</li>
+	<li>C / C# / C++</li>
   <li>Ruby</li>
 	<li>MySQL - MongoDB</li>
-  <li>GCP/AWS</li>
+  <li>GCP / AWS</li>
 </ul>
 
 ## <span style="border-bottom: solid 5px red">Projects</span>
