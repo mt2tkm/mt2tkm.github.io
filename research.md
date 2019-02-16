@@ -46,7 +46,7 @@ layout: page
 
 ### その他
 <ul>
-{% for paper_sub in site.data.paper %}
+{% for paper in site.data.paper_sub %}
   <li>
       <strong> {{ paper.title }} </strong> <br>
 	  {% for member in paper.author %}
