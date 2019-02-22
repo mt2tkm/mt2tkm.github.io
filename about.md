@@ -56,13 +56,13 @@ layout: page
 
 ## <span style="border-bottom: solid 5px red">Skills</span>
 <ul class="skill-list">
-	<li>Git</li>
 	<li>Python</li>
 	<li>Scala</li>
 	<li>C / C# / C++</li>
   <li>Ruby</li>
 	<li>MySQL - MongoDB</li>
   <li>GCP / AWS</li>
+	<li>Git</li>
 </ul>
 
 ## <span style="border-bottom: solid 5px red">Projects</span>

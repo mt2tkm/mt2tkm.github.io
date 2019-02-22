@@ -5,12 +5,12 @@ layout: page
 # 研究関連
 
 ## <span style="border-bottom: solid 5px red">Reserch Interest</span>
-- 探索的データ分析 (Explanatory analysis)
+- 探索的データ分析 (Explanatory Data Analysis)
 - データマイニング
 - データベース
-- データキューブ
 - OLAP (Online Analytical Processing)
-- 異常検知 (outlier detection)
+- 異常検知 (Outlier Detection)
+- データキューブ
 
 ## <span style="border-bottom: solid 5px red">Internship</span>
 1. （株）三菱電機

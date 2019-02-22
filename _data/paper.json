@@ -15,7 +15,7 @@
         "title" : "Data Slice Search for Local Outlier View Detection: A Case Study in Fashion EC",
         "author" : ["Takumi Matsumoto", "Yuya Sasaki", "Makoto Onizuka"],
         "day" : 2019.03,
-        "conference" : "International Worksho on Data Analytics solutions for Real-LIfe APplications (DARLI-AP)"
+        "conference" : "International Workshop on Data Analytics solutions for Real-LIfe APplications (DARLI-AP)"
     },
     {
         "title" : "大域的・局所的データ分析を両立した効率的なフレームワーク",
